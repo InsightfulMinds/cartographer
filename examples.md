@@ -5,6 +5,12 @@ private mesh network). Multiple automated workers and one human operate across t
 The objects below are real; names and paths are aliased. The later reader here is a cold
 model: a fresh session that must change one thing without loading the whole tree.
 
+Snapshot note: this example was walked before the full `map/` run of 2026-08-16, and the
+territory moved between the two. Where they differ, `map/` is the fresher record — e.g.
+screen capture was a ghost here (LaunchAgent unloaded after the incident) and is live in
+`map/` precisely as this card predicted: it came back only through the self-disabling
+variant. A map is dated evidence, not doctrine.
+
 ## The catalog (map/CATALOG.md)
 
 ```
@@ -89,4 +95,3 @@ does-not-hit: your change plans. A reader who trusts the name will "re-enable
   box only = false drift alarm until leg-2 sync runs).
 - **Does not hit:** locks-file, even though "locks" is the first word a newcomer greps.
 - Stop. You never loaded the queues, the gates, or the ghosts.
-```
