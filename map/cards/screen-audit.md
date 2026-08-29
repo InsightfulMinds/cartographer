@@ -9,3 +9,5 @@ hits: disk (frames ring buffer); OS Screen Recording permission state; privacy p
 does-not-hit: the work-capture skill — separate tool (task timelines/video), different
   wiring; killing screen-audit does not affect it.
 caution: frames/ must stay excluded from all sync legs (additive-only syncs never prune).
+  08-29: the LaunchAgent is still loaded, but a PAUSED marker file sits in ops/screen-audit/
+  (soft pause per its README) — loaded is not capturing; check the marker before trusting frames/.

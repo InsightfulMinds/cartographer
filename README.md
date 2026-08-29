@@ -52,8 +52,10 @@ scripts and services, a client delivery folder.
 ## The proof-of-run
 
 `map/` is the cartographer's real output, run against my own three-box home-lab ops
-runtime (the Homestead — boxes A, B, C); two of its cards are ghosts found during the
-walk, with the wiring I looked for and didn't find. `examples.md` is an earlier, smaller
+runtime (the Homestead — boxes A, B, C). The first walk (08-16) produced 9 cards; the
+full pass (08-29) brought it to 34 — five of them ghosts found during the walk, each with
+the wiring I looked for and didn't find, plus one boundary card per external edge and a
+collision card for the one name that means two paths. `examples.md` is an earlier, smaller
 worked map of the same territory (snapshot noted inside; statuses have since moved, and
 `map/` is the fresher record).
 
@@ -89,6 +91,6 @@ Don't take the checker's word for it — plant a violation and watch it die by n
 - `rules.md` — how it maps: nouns, movements, live/leftover/ghost, Hits / Does not hit
 - `reference/` — the closed set of card types, the walk order, naming collisions
 - `examples.md` — one worked map of a real territory (small; catalog + 3 cards) — output, not input
-- `map/` — the real output: catalog + 9 cards from the Homestead runtime walk — output, not input
+- `map/` — the real output: catalog + 34 cards from the Homestead runtime walk — output, not input
 - `runs/refusal-transcript.md` — Rule 7 exercised on the record, not asserted
 - `verify-map.mjs` — mechanical map checker
